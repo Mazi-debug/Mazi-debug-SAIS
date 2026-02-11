@@ -1,0 +1,153 @@
+ul.nav, ul.cta-links 
+{
+    text-align: center; /* Centers navigation items */
+    list-style-type: none; /* Removes default bullets */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background: linear-gradient(90deg, #000000, #000000); /* Bright orange gradient */
+    overflow: hidden; /* Ensures child items don’t overflow */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Adds soft drop shadow */
+    border-radius: 12px; /* Rounded corners for a modern look */
+}
+
+/* Styles for each navigation item */
+ul.nav li 
+{
+    display: inline-block; /* Aligns items horizontally */
+    text-align: center; /* Centers text within item */
+}
+
+/* Link styling within navigation */
+ul.nav li a, ul.cta-links li a
+{
+    display: block; /* Makes the link clickable across the whole area */
+    color: #ffffff; /* Black text for readability */
+    text-decoration: none; /* Removes underline */
+    padding: 14px 20px; /* Adds comfortable clickable padding */
+    font-weight: bold; /* Emphasizes navigation text */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover animation */
+}
+
+/* Hover effect for navigation links */
+ul.nav li a:hover, ul.cta-links li a:hover
+{
+    background-color: #6B4A34; /* Soft brown hover background */
+    color: #ffffff; /* Keeps text white */
+    border-radius: 8px; /* Slightly rounds the link on hover */
+}
+
+section 
+{
+  background: #D9D9D9; /* White background for contrast */
+  border-radius: 12px; /* Smooth rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds subtle depth */
+  padding: 20px; /* Internal spacing */
+  margin-bottom: 20px; /* Space between sections */
+}
+
+h1, h2, h3
+{
+    margin: 20px 0; /* Adds vertical spacing */
+    background: linear-gradient(90deg, #6B4A34, #6B4A34); /* Orange gradient background */
+    overflow: hidden; /* Prevents layout issues */
+    text-align: center; /* Centers all headings */
+    border-radius: 12px; /* Rounded background edges */
+    padding: 2px; /* Slight padding for visual comfort */
+    color: #000000; /* Black text for contrast */
+    font-family: 'Palatino Linotype', serif; /* Classic, readable serif font */
+}
+
+img 
+{
+    display: block; /* Removes inline spacing and allows centering */
+    margin: 0 auto 20px auto; /* Centers image horizontally and adds bottom spacing */
+    max-width: 100%; /* Ensures image doesn't overflow its container */
+    height: auto; /* Maintains correct aspect ratio */
+}
+
+body
+{
+    background-color: #f1ddb7; /* Sets a soft, warm brown background for the entire page */
+}
+
+p 
+{
+    font-size: 18px; /* Easy-to-read size */
+    padding: 10px;
+    margin: 15px 0; /* Space between paragraphs */
+    border-radius: 12px; /* Smooth rounded corners */
+    background-color: #ffffff; /* Clean white background */
+    color: #000000; /* Black text for high readability */
+}
+
+p.successMessage
+{
+    display: none;
+    color: green;
+    margin-top: 10px;
+}
+
+ul.first, ul.second, ul.third, ul.fourth, ul.fifth
+{
+    text-align: center; /* Centers navigation items */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background: linear-gradient(90deg, #6B4A34, #6B4A34); /* Bright orange gradient */
+    overflow: hidden; /* Ensures child items don’t overflow */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Adds soft drop shadow */
+    border-radius: 12px; /* Rounded corners for a modern look */
+}
+
+li 
+{
+    display: inline-block; /* Aligns items horizontally */
+    text-align: center; /* Centers text within item */
+    color: #000000; /* Black text for readability */
+    padding: 14px 20px; /* Adds comfortable clickable padding */
+    font-weight: bold; /* Emphasizes navigation text */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover animation */
+}
+
+header, footer 
+{
+  text-align: center; /* Centers all text within header and footer */
+  margin-top: 20px; /* Adds vertical space above these sections */
+  margin-bottom: 20px; /* Adds vertical space below these sections */
+}
+
+form label {
+  display: block; /* Each label on a new line */
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+/* Input and textarea styling */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc; /* Subtle gray border */
+  margin-top: 5px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Allows textarea resizing vertically */
+form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Submit button styling */
+form button[type="submit"] {
+  margin-top: 10px;
+  background-color: #000000; /* Matches site palette */
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
